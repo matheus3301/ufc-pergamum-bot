@@ -1,0 +1,9 @@
+{
+  "name": "ufc-pergamum-bot",
+  "description": "Bot de telegram para consultas à biblioteca",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/matheus3301/ufc-pergamum-bot.git",
+  "author": "Matheus Rocha <monteiromatheus.rocha@gmail.com>",
+  "license": "MIT"
+}

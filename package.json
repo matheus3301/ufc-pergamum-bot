@@ -2,8 +2,19 @@
   "name": "ufc-pergamum-bot",
   "description": "Bot de telegram para consultas à biblioteca",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/index.js",
   "repository": "https://github.com/matheus3301/ufc-pergamum-bot.git",
   "author": "Matheus Rocha <monteiromatheus.rocha@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "telegraf": "^3.38.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  }
 }
